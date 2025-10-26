@@ -35,7 +35,7 @@ const BuyerDashboard = () => {
   const fetchProducts = async () => {
     try {
       console.log("Fetching all products from API...");
-      const response = await axios.get("http://localhost:3000/products");
+      const response = await axios.get("https://backend-for-agroconnect-y2b7.onrender.com/products");
       console.log("Fetched products:", response.data);
       setProducts(response.data);
 
