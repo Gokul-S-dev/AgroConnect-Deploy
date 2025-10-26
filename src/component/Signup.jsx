@@ -197,17 +197,7 @@ const Signup = () => {
             }
           );
         } else if (error.request) {
-          setErrors({
-            general:
-              "Unable to connect to server. Please check if JSON Server is running on http://localhost:3000",
-          });
-          toast.error(
-            "Unable to connect to server. Please check if JSON Server is running.",
-            {
-              icon: "⚠️",
-              duration: 5000,
-            }
-          );
+       
         } else {
           setErrors({
             general: "Something went wrong. Please try again.",
