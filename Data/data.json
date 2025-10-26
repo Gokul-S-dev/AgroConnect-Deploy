@@ -1,0 +1,253 @@
+{
+  "users": [
+    {
+      "id": "fe5f",
+      "fullName": "gokul",
+      "email": "24csa31@karpagamtech.ac.in",
+      "phone": "8667581651",
+      "address": "123 Addresss",
+      "password": "123456",
+      "userType": "buyer",
+      "createdAt": "2025-10-14T09:44:15.283Z"
+    },
+    {
+      "id": "44f0",
+      "fullName": "Raja",
+      "email": "sggokul762@gmail.com",
+      "phone": "8667581651",
+      "address": "123,Address",
+      "password": "123456",
+      "userType": "seller",
+      "createdAt": "2025-10-14T10:02:56.000Z"
+    },
+    {
+      "id": "3320",
+      "fullName": "nafee",
+      "email": "24csa03@gmail.com",
+      "phone": "1234567892",
+      "address": "12,ghfjjh",
+      "password": "123456",
+      "userType": "seller",
+      "createdAt": "2025-10-14T10:26:58.342Z"
+    },
+    {
+      "id": "503b",
+      "fullName": "dhara",
+      "email": "24csa25@karpagamtech.ac.in",
+      "phone": "9965118615",
+      "address": "11/147,annainagar ganapathipalayam,Tiruppur",
+      "password": "123456",
+      "userType": "seller",
+      "createdAt": "2025-10-14T11:02:46.311Z"
+    },
+    {
+      "id": "7c1e",
+      "fullName": "gokul",
+      "email": "student1@example.com",
+      "phone": "9876543210",
+      "address": "123,Address",
+      "password": "123456",
+      "userType": "seller",
+      "createdAt": "2025-10-14T14:38:38.872Z"
+    },
+    {
+      "id": "7b55",
+      "fullName": "Ram",
+      "email": "ramu762@gmail.com",
+      "phone": "7878785555",
+      "address": "Chennai",
+      "password": "123456",
+      "userType": "buyer",
+      "createdAt": "2025-10-14T14:50:53.284Z"
+    },
+    {
+      "id": "d9c1",
+      "fullName": "gokul",
+      "email": "24csa24@karpagamtech.ac.in",
+      "phone": "9876543210",
+      "address": "chennai",
+      "password": "123456",
+      "userType": "seller",
+      "createdAt": "2025-10-15T09:23:51.565Z"
+    },
+    {
+      "id": "f612",
+      "fullName": "dhanu",
+      "email": "24csa32@karpagamtech.ac.in",
+      "phone": "8778714302",
+      "address": "salem",
+      "password": "123456",
+      "userType": "buyer",
+      "createdAt": "2025-10-17T14:12:49.972Z"
+    },
+    {
+      "id": "0377",
+      "fullName": "Srie",
+      "email": "24ada57@karpagamtech.ac.in",
+      "phone": "1234567890",
+      "address": "dzgfsdf j kjhg",
+      "password": "123456",
+      "userType": "buyer",
+      "createdAt": "2025-10-26T13:11:30.120Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Organic Tomatoes",
+      "price": "₹40/kg",
+      "image": "🍅",
+      "farmer": "Rajesh Kumar",
+      "rating": 4.5,
+      "location": "Punjab"
+    },
+    {
+      "id": "2",
+      "name": "Fresh Potatoes",
+      "price": "₹25/kg",
+      "image": "🥔",
+      "farmer": "Amit Singh",
+      "rating": 4.8,
+      "location": "Haryana"
+    },
+    {
+      "id": "3",
+      "name": "Green Beans",
+      "price": "₹60/kg",
+      "image": "🫘",
+      "farmer": "Priya Sharma",
+      "rating": 4.6,
+      "location": "Maharashtra"
+    },
+    {
+      "id": "4",
+      "name": "Fresh Carrots",
+      "price": "₹35/kg",
+      "image": "🥕",
+      "farmer": "Suresh Patel",
+      "rating": 4.7,
+      "location": "Gujarat"
+    },
+    {
+      "id": "5",
+      "name": "Organic Spinach",
+      "price": "₹30/kg",
+      "image": "🥬",
+      "farmer": "Meena Devi",
+      "rating": 4.9,
+      "location": "Uttarakhand"
+    },
+    {
+      "id": "6",
+      "name": "Fresh Cauliflower",
+      "price": "₹45/kg",
+      "image": "🥦",
+      "farmer": "Ramesh Yadav",
+      "rating": 4.4,
+      "location": "Uttar Pradesh"
+    },
+    {
+      "id": "c864",
+      "name": "banana",
+      "price": "₹50/kg",
+      "image": "🍌",
+      "farmer": "nafee",
+      "rating": 5,
+      "location": "ghfjjh"
+    },
+    {
+      "id": "d0fd",
+      "name": "rice",
+      "price": "₹75/kg",
+      "image": "🌾",
+      "farmer": "nafee",
+      "rating": 4.5,
+      "location": "ghfjjh"
+    },
+    {
+      "id": "8708",
+      "name": "grapes",
+      "price": "₹100/kg",
+      "image": "🍇",
+      "farmer": "dhara",
+      "rating": 4.5,
+      "location": "Tiruppur"
+    },
+    {
+      "id": "f12f",
+      "name": "Apple",
+      "price": "₹50/kg",
+      "image": "🍎",
+      "farmer": "Raja",
+      "rating": 4.5,
+      "location": "Address"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "1",
+      "name": "Anita Verma",
+      "role": "Customer",
+      "text": "AgroConnect has transformed how I buy vegetables. Fresh produce directly from farmers at great prices!",
+      "rating": 5,
+      "avatar": "👩"
+    },
+    {
+      "id": "2",
+      "name": "Vikram Singh",
+      "role": "Farmer",
+      "text": "Finally, a platform that gives us fair prices and connects us directly with customers. Game changer!",
+      "rating": 5,
+      "avatar": "👨‍🌾"
+    },
+    {
+      "id": "3",
+      "name": "Priya Menon",
+      "role": "Customer",
+      "text": "Quality products, quick delivery, and supporting local farmers. What more could I ask for?",
+      "rating": 5,
+      "avatar": "👩‍💼"
+    }
+  ],
+  "equipment": [
+    {
+      "id": "c669",
+      "name": "John Deere Tractor 5055E",
+      "type": "Tractor",
+      "price": "₹2000/day",
+      "image": "🚜",
+      "owner": "Raja",
+      "rating": 4.5,
+      "location": "Address",
+      "specifications": "55HP, 4WD, Perfect for heavy farming",
+      "condition": "Excellent",
+      "available": true
+    },
+    {
+      "id": "eq1",
+      "name": "Mahindra Harvester Pro",
+      "type": "Harvester",
+      "price": "₹3500/day",
+      "image": "🌾",
+      "owner": "dhara",
+      "rating": 4.7,
+      "location": "Tiruppur",
+      "specifications": "Combine harvester, 20 acres/day capacity, Well-maintained",
+      "condition": "Good",
+      "available": true
+    },
+    {
+      "id": "eq2",
+      "name": "Heavy Duty Transport Truck",
+      "type": "Truck",
+      "price": "₹1500/day",
+      "image": "🚚",
+      "owner": "nafee",
+      "rating": 4.6,
+      "location": "ghfjjh",
+      "specifications": "10-ton capacity, Perfect for transportation, GPS tracking",
+      "condition": "Excellent",
+      "available": true
+    }
+  ]
+}

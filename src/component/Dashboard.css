@@ -1,0 +1,272 @@
+.dashboard-page {
+  min-height: 100vh;
+  background: #f8f9fa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Navbar Styling */
+.navbar {
+  padding: 1rem 0;
+}
+
+.bg-gradient-success {
+  background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+}
+
+.bg-gradient-warning {
+  background: linear-gradient(135deg, #ffc107 0%, #ff9800 100%);
+}
+
+/* Stats Cards */
+.stat-card {
+  border: none;
+  border-radius: 15px;
+  transition: all 0.3s ease;
+}
+
+.stat-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.stat-icon {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.stat-number {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #28a745;
+  margin: 10px 0;
+}
+
+.stat-label {
+  font-size: 1rem;
+  color: #666;
+  margin: 0;
+}
+
+/* Search Box */
+.search-box input {
+  border-radius: 50px;
+  padding: 15px 25px;
+  border: 2px solid #28a745;
+  font-size: 1rem;
+}
+
+.search-box input:focus {
+  box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
+  border-color: #28a745;
+}
+
+/* Product Card Styling */
+.product-card {
+  transition: all 0.3s ease;
+  border: 1px solid #e0e0e0;
+  border-radius: 15px;
+  overflow: hidden;
+  background: white;
+}
+
+.product-card:hover {
+  transform: translateY(-8px);
+  border-color: #28a745;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 10px 25px rgba(40, 167, 69, 0.2) !important;
+}
+
+/* Product Image/Emoji */
+.product-image {
+  font-size: 80px !important;
+  padding: 20px 0;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+/* Product Name */
+.product-name {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 10px;
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Product Price */
+.product-price {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #28a745;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+
+/* Product Info Section */
+.product-info {
+  padding-top: 15px;
+  border-top: 2px solid #f0f0f0;
+  margin-top: 10px;
+}
+
+.product-info small {
+  display: flex;
+  align-items: center;
+  font-size: 0.875rem;
+  color: #666;
+}
+
+.product-info strong {
+  color: #333;
+  margin-left: 5px;
+}
+
+/* Equipment Card Styling */
+.equipment-card {
+  transition: all 0.3s ease;
+  border: 2px solid #ffc107;
+  border-radius: 15px;
+  overflow: hidden;
+  background: white;
+}
+
+.equipment-card:hover {
+  transform: translateY(-8px);
+  border-color: #ff9800;
+  box-shadow: 0 10px 25px rgba(255, 193, 7, 0.3) !important;
+}
+
+/* Equipment Image/Icon */
+.equipment-image {
+  font-size: 80px;
+  padding: 20px 0;
+  background: linear-gradient(135deg, #fff8e1 0%, #ffe082 100%);
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+/* Equipment Name */
+.equipment-name {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 10px;
+  min-height: 50px;
+}
+
+/* Equipment Price */
+.equipment-price {
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: #28a745;
+  margin-bottom: 15px;
+}
+
+/* Equipment Specifications */
+.equipment-specs {
+  padding: 10px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  border-left: 3px solid #ffc107;
+  min-height: 60px;
+}
+
+/* Equipment Info Section */
+.equipment-info {
+  padding-top: 15px;
+  border-top: 2px solid #f0f0f0;
+  margin-top: 10px;
+}
+
+/* Warning Gradient Background */
+.bg-gradient-warning {
+  background: linear-gradient(135deg, #ffc107 0%, #ff9800 100%);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .navbar-brand {
+    font-size: 1.2rem !important;
+  }
+
+  .stat-icon {
+    font-size: 2.5rem;
+  }
+
+  .stat-number {
+    font-size: 2rem;
+  }
+
+  .product-image {
+    font-size: 60px !important;
+  }
+  
+  .product-name {
+    font-size: 1rem;
+    min-height: 40px;
+  }
+  
+  .product-price {
+    font-size: 1.2rem;
+  }
+
+  .equipment-image {
+    font-size: 60px;
+  }
+
+  .equipment-name {
+    font-size: 1rem;
+    min-height: 40px;
+  }
+
+  .equipment-price {
+    font-size: 1.2rem;
+  }
+}
+
+/* Loading Spinner */
+.spinner-border {
+  width: 3rem;
+  height: 3rem;
+}
+
+/* Buttons */
+.btn {
+  border-radius: 10px;
+  padding: 0.6rem 1.5rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+}
+
+/* Cards */
+.card {
+  border-radius: 15px;
+  border: none;
+}
+
+/* Form Controls */
+.form-control {
+  border-radius: 10px;
+  border: 2px solid #e0e0e0;
+  padding: 0.6rem 1rem;
+}
+
+.form-control:focus {
+  border-color: #4caf50;
+  box-shadow: 0 0 0 0.2rem rgba(76, 175, 80, 0.1);
+}
+
+/* Alerts */
+.alert {
+  border-radius: 10px;
+  border: none;
+}
