@@ -422,33 +422,6 @@ const BuyerDashboard = () => {
             </div>
           </div>
         )}
-
-        {/* Debug Info - Remove in production */}
-        <div className="row mb-4">
-          <div className="col-12">
-            <div className="card bg-light">
-              <div className="card-body">
-                <h6 className="fw-bold">📊 Dashboard Statistics</h6>
-                <ul className="mb-0 small">
-                  <li>
-                    Total Products in Database:{" "}
-                    <strong>{products.length}</strong>
-                  </li>
-                  <li>
-                    Filtered Products Shown:{" "}
-                    <strong>{filteredProducts.length}</strong>
-                  </li>
-                  <li>
-                    Items in Cart: <strong>{cart.length}</strong>
-                  </li>
-                  <li>
-                    Search Query: <strong>{searchQuery || "None"}</strong>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   );
