@@ -136,7 +136,7 @@ const Signup = () => {
         console.log("Registering user with data:", userData);
 
         const response = await axios.post(
-          "http://localhost:3000/users",
+          "https://backend-for-agroconnect-u9dt.onrender.com/users",
           userData,
           {
             headers: {
