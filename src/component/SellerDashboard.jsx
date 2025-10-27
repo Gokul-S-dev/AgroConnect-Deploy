@@ -48,13 +48,7 @@ const SellerDashboard = () => {
       setProducts(sellerProducts);
     } catch (error) {
       console.error("Error fetching products:", error);
-      toast.error(
-        "Failed to load products. Please check if JSON Server is running on http://localhost:3000",
-        {
-          icon: "⚠️",
-          duration: 4000,
-        }
-      );
+
     } finally {
       setLoading(false);
     }
@@ -100,7 +94,7 @@ const SellerDashboard = () => {
       console.log("Product data to send:", productData);
 
       const response = await axios.post(
-        "http://localhost:3000/products",
+        "https://backend-for-agroconnect-u9dt.onrender.com/equipment",
         productData,
         {
           headers: {
@@ -136,13 +130,6 @@ const SellerDashboard = () => {
           icon: "❌",
         });
       } else if (error.request) {
-        toast.error(
-          "Unable to connect to server. Please check if JSON Server is running on http://localhost:3000",
-          {
-            icon: "⚠️",
-            duration: 5000,
-          }
-        );
       } else {
         toast.error("Failed to add product. Please try again.", {
           icon: "❌",
@@ -193,7 +180,7 @@ const SellerDashboard = () => {
     try {
       console.log("Deleting product with ID:", productId);
 
-      await axios.delete(`http://localhost:3000/products/${productId}`);
+      await axios.delete(`https://backend-for-agroconnect-u9dt.onrender.com/equipment/${productId}`);
 
       console.log("Product deleted successfully");
       toast.success(`Product "${productName}" deleted successfully!`, {
